@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --background-color: ;
+  --text-color: ;
+  --accent1-color: ;
+  --accent2-color: ;
+}
