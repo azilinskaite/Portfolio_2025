@@ -10,3 +10,10 @@
   --accent1-color: ;
   --accent2-color: ;
 }
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}

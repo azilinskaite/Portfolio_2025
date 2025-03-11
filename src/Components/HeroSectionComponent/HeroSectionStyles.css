@@ -1,0 +1,7 @@
+@import "../../App.css";
+
+.hero-section {
+    p {
+        max-width: 70ch;
+    }
+}
