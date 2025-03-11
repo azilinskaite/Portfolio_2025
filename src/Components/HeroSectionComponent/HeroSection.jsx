@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section className="hero-section">
       <h1>Hi</h1>
-      <h2>I'm web developer & designer</h2>
+      <h2>I'm a web developer & designer</h2>
       <p>
         Intro about me. Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Voluptate modi praesentium iure quo ad, inventore officiis, vero
@@ -16,11 +16,11 @@ const HeroSection = () => {
       </p>
       <p>E-mail</p>
       <ul>
-        <li>Skill</li>
-        <li>Skill</li>
-        <li>Skill</li>
-        <li>Skill</li>
-        <li>Skill</li>
+        <li><img src="" alt="" />Skill</li>
+        <li><img src="" alt="" />Skill</li>
+        <li><img src="" alt="" />Skill</li>
+        <li><img src="" alt="" />Skill</li>
+        <li><img src="" alt="" />Skill</li>
       </ul>
     </section>
   );

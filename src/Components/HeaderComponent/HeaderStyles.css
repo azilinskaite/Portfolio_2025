@@ -3,14 +3,16 @@
 header {
     display: flex;
     gap: 4rem;
+    align-items: center;
+    padding: 1rem;
     .header-logo img {
-        max-height: 2.5rem;
+        max-height: 2rem;
     }
     .header-nav {
         .header-nav-links {
             list-style: none;
             display: flex;
-            gap: 2rem;
+            gap: 1rem;
             li a {
                 text-decoration: none;
                 color: inherit;

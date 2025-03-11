@@ -3,7 +3,7 @@ import "./MovingHeaderStyles.css";
 
 const MovingHeader = () => {
     return (
-        <h3 className="works-header">Selected works</h3>
+        <h3 className="moving-header">Selected work</h3>
     );
 }
 

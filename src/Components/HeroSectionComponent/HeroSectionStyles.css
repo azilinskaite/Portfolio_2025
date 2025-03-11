@@ -1,7 +1,20 @@
 @import "../../App.css";
 
 .hero-section {
+    padding: 1rem;
+    h1 {
+
+    }
+    h2 {
+
+    }
     p {
         max-width: 70ch;
+    }
+    ul {
+        margin-top: 1rem;
+        list-style: none;
+        display: flex;
+        gap: 1rem;
     }
 }
