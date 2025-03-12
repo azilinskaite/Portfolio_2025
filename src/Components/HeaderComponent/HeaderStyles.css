@@ -20,7 +20,7 @@ header {
                 text-transform: uppercase;
                 font-size: 1.5rem;
                 &:hover {
-                    color: #AFF8A2;
+                    color: var(--accent1-color);
                 }
             }
         }

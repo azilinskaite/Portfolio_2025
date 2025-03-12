@@ -10,18 +10,16 @@
 }
 
 :root {
-  --background-color: ;
-  --text-color: ;
-  --accent1-color: ;
-  --accent2-color: ;
+  --background-color: #22211E;
+  --text-color: #EDF5EC;
+  /* color: #D5D4CF; */
+  --accent1-color: #AFF8A2;
 }
 
 body {
   font-family: "TT Fors", sans-serif;
-  background-color: #22211E;
-  /* color: #D5D4CF; */
-  color: #EDF5EC;
-
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 .projects-container {

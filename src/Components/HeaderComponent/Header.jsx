@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeaderStyles.css";
-import logo from "../../Assets/Adele-logo.png";
+// import logo from "../../Assets/Adele-logo.png";
 
 const Header = () => {
   return (

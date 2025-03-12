@@ -6,21 +6,16 @@ const HeroSection = () => {
     <section className="hero-section">
       <h1>Hi, I'm Adele Zilinskaite - web developer & designer</h1>
       <p>
-        Intro about me. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Voluptate modi praesentium iure quo ad, inventore officiis, vero
-        perferendis repellat similique maiores itaque quibusdam fugit nobis
-        doloremque a ullam adipisci corporis temporibus ipsum et error. Ipsam
-        incidunt facere mollitia tempore iste eius praesentium pariatur facilis
-        magni, nulla voluptatibus neque atque qui?
+      Beginner Front-End developer currently studying at Hyper Island in Stockholm, Sweden. I'm excited about building creative projects and enjoy the challenge of problem-solving. With over six years of experience in the fashion design field, I've developed a strong ability to combine technical and creative thinking. Currently, I'm looking forward to opportunities that will allow me to deepen my skills and apply them in real-world projects. I'm eager to explore how my diverse background can contribute to innovative projects in this exciting new chapter.
       </p>
-      <p className="email">zilinskaite.adele@gmail.com</p>
       <ul>
-        <li><img src="" alt="" />Skill</li>
-        <li><img src="" alt="" />Skill</li>
-        <li><img src="" alt="" />Skill</li>
-        <li><img src="" alt="" />Skill</li>
-        <li><img src="" alt="" />Skill</li>
+        <li><img src="" alt="" />HTML</li>
+        <li><img src="" alt="" />CSS</li>
+        <li><img src="" alt="" />JAVASCRIPT</li>
+        <li><img src="" alt="" />REACT</li>
+        <li><img src="" alt="" />NODE.JS</li>
       </ul>
+      <p className="email">zilinskaite.adele@gmail.com</p>
     </section>
   );
 };

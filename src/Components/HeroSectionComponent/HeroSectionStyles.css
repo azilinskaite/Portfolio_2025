@@ -1,7 +1,7 @@
 @import "../../App.css";
 
 .hero-section {
-    padding: 1rem;
+    padding: 4rem 1rem;
     h1 {
         font-size: 6rem;
         line-height: 6rem;
