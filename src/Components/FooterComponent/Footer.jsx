@@ -3,7 +3,7 @@ import "./FooterStyles.css";
 
 const Footer = () => {
     return (
-        <footer>
+        <footer id="contact">
         <h2>Let's get in touch!</h2>
         <p className="email">zilinskaite.adele@gmail.com</p>
         <div>linkedin</div>

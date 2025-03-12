@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <HeroSection id="about"/>
+      <HeroSection/>
       <MovingHeader />
       <section className="projects-container" id="work">
         <Project photo={cocktailPhoto} title="Cocktail Kungen" info="Cocktail recipes app. Using external API and React.js" />
@@ -19,7 +19,7 @@ function App() {
         <Project photo={cocktailPhoto} title="Bazaar Bab" info="Landing page for a restaurant built using JavaSript, CSS, HTML." />
         <Project photo={cocktailPhoto} title="Library App" info="JavaSript project showing CRUD functionality, adding, updating and deleting books in a personal library." />
       </section>
-      <Footer id="contact"/>
+      <Footer/>
     </div>
   );
 }

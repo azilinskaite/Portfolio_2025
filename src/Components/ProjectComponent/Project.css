@@ -26,5 +26,15 @@
         p {
             max-width: 30ch;
         }
+        span {
+            display: flex;
+            gap: 1rem;
+            justify-self: flex-end;
+            font-size: 1.5rem;
+            a:hover {
+                cursor: pointer;
+                scale: 1.1;
+            }
+        }
     }
 }

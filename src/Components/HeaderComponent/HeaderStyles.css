@@ -2,10 +2,12 @@
 
 header {
     display: flex;
-    gap: 4rem;
-    align-items: center;
-    padding: 1rem;
     justify-content: space-between;
+    gap: 4rem;
+    padding: 1rem;
+    position: fixed;
+    right: 0;
+    z-index: 1;
     .header-logo img {
         max-height: 2rem;
     }
@@ -21,6 +23,7 @@ header {
                 font-size: 1.5rem;
                 &:hover {
                     color: var(--accent1-color);
+                    cursor: pointer;
                 }
             }
         }

@@ -1,12 +1,12 @@
 @import "../../App.css";
 
 .hero-section {
-    padding: 4rem 1rem;
+    padding: 8rem 1rem 4rem;
     h1 {
         font-size: 6rem;
         line-height: 6rem;
         font-weight: 900;
-        max-width: 20ch;
+        max-width: 16ch;
     }
     p {
         max-width: 70ch;
@@ -14,12 +14,15 @@
         font-weight: 500;
         margin-top: 1rem;
     }
+    hr {
+        margin-top: 2rem;
+    }
     .email {
         margin-top: 1rem;
         font-weight: 700;
     }
     ul {
-        margin-top: 1rem;
+        margin-top: 2rem;
         list-style: none;
         display: flex;
         gap: 1rem;
