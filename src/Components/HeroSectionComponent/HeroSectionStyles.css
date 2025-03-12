@@ -3,13 +3,20 @@
 .hero-section {
     padding: 1rem;
     h1 {
-
-    }
-    h2 {
-
+        font-size: 6rem;
+        line-height: 6rem;
+        font-weight: 900;
+        max-width: 20ch;
     }
     p {
         max-width: 70ch;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 1rem;
+    }
+    .email {
+        margin-top: 1rem;
+        font-weight: 700;
     }
     ul {
         margin-top: 1rem;

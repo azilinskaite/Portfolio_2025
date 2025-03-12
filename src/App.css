@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "TT Fors";
+  src: url(../src/Assets/TT\ Fors\ Variable.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +14,14 @@
   --text-color: ;
   --accent1-color: ;
   --accent2-color: ;
+}
+
+body {
+  font-family: "TT Fors", sans-serif;
+  background-color: #22211E;
+  /* color: #D5D4CF; */
+  color: #EDF5EC;
+
 }
 
 .projects-container {

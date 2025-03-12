@@ -4,8 +4,7 @@ import "./HeroSectionStyles.css";
 const HeroSection = () => {
   return (
     <section className="hero-section">
-      <h1>Hi</h1>
-      <h2>I'm a web developer & designer</h2>
+      <h1>Hi, I'm Adele Zilinskaite - web developer & designer</h1>
       <p>
         Intro about me. Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Voluptate modi praesentium iure quo ad, inventore officiis, vero
@@ -14,7 +13,7 @@ const HeroSection = () => {
         incidunt facere mollitia tempore iste eius praesentium pariatur facilis
         magni, nulla voluptatibus neque atque qui?
       </p>
-      <p>E-mail</p>
+      <p className="email">zilinskaite.adele@gmail.com</p>
       <ul>
         <li><img src="" alt="" />Skill</li>
         <li><img src="" alt="" />Skill</li>
