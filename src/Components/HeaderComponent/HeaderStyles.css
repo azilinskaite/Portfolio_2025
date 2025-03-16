@@ -8,22 +8,25 @@ header {
   position: fixed;
   right: 0;
   z-index: 1;
+  background-color: transparent;
+  transition: all 0.3s ease-out;
   .header-logo img {
     max-height: 2rem;
     mix-blend-mode: difference;
+    transition: all 0.3s ease-out;
   }
   .header-nav {
     .header-nav-links {
       list-style: none;
       display: flex;
       gap: 1rem;
-      color: var(--text-color);
-      mix-blend-mode: difference;
+      transition: all 0.3s ease-out;
       li a {
         text-decoration: none;
         color: inherit;
         text-transform: uppercase;
         font-size: 1.5rem;
+        transition: all 0.3s ease-out;
         &:hover {
           color: var(--accent1-color);
           cursor: pointer;
@@ -31,4 +34,8 @@ header {
       }
     }
   }
+}
+
+.inverted {
+    filter: invert(1);
 }
