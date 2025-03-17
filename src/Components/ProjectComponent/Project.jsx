@@ -13,8 +13,8 @@ const Project = ({ photo, title, info, link1, link2 }) => {
         <div className="project-details">
           <p>{info}</p>
           <span>
-            <a href={link1}>netlify</a>
-            <a href={link2}>github</a>
+            <a href={link1} target="_blank" rel="noreferrer">netlify</a>
+            <a href={link2} target="_blank" rel="noreferrer">github</a>
           </span>
         </div>
       </section>

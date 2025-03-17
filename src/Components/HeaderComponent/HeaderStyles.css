@@ -23,7 +23,8 @@ header {
       transition: all 0.3s ease-out;
       li a {
         text-decoration: none;
-        color: inherit;
+        color: var(--text-color);
+        mix-blend-mode: difference;
         text-transform: uppercase;
         font-size: 1.5rem;
         transition: all 0.3s ease-out;

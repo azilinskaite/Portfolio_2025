@@ -1,13 +1,14 @@
 @import "../../App.css";
 
 .marquee-wrapper {
+  width: 100%;
+  overflow: hidden;
   .marquee-track {
     display: flex;
     padding-left: 2rem;
     gap: 2rem; 
     width: max-content;
     animation: marquee-animation 16s infinite linear;
-
     .marquee-text {
       /* text-transform: uppercase; */
       font-size: 3rem;
@@ -20,5 +21,17 @@
 @keyframes marquee-animation {
   to {
     transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .marquee-text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .marquee-text {
+    font-size: 1.5rem;
   }
 }
