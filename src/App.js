@@ -6,6 +6,7 @@ import Project from "./Components/ProjectComponent/Project";
 import Footer from "./Components/FooterComponent/Footer";
 import cocktailPhoto from "../src/Assets/cocktail-kungen-mockup.png";
 import chaosPhoto from "../src/Assets/chaos-magazine-mockup.png";
+import libraryPhoto from "../src/Assets/library-mockup.png";
 
 function App() {
   return (
@@ -29,9 +30,11 @@ function App() {
           link2="https://github.com/azilinskaite/music-quiz"
         />
         <Project
-          photo={cocktailPhoto}
-          title="Bazaar Bab"
-          info="Landing page for a restaurant built using JavaSript, CSS, HTML."
+          photo={libraryPhoto}
+          title="Bookworm HQ"
+          info="Library web application. The project leverages JavaScript object-oriented programming, utilizing constructors and implementing dynamic DOM manipulation for a fluid user interface. It features CRUD functionality. Implementing responsive design principles"
+          link1="https://bookworm-hq.netlify.app/"
+          link2="https://github.com/azilinskaite/library_app"
         />
         <Project
           photo={chaosPhoto}
