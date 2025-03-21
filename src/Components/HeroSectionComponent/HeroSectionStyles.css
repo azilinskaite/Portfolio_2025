@@ -6,7 +6,6 @@
         font-size: 6rem;
         line-height: 6rem;
         font-weight: 900;
-        max-width: 16ch;
     }
     p {
         max-width: 70ch;
@@ -15,16 +14,21 @@
         margin-top: 1rem;
     }
     hr {
-        margin-top: 2rem;
+        margin: 2rem 0 1rem;
     }
-    .email {
-        margin-top: 1rem;
-        font-weight: 700;
-    }
-    ul {
-        margin-top: 2rem;
-        list-style: none;
+    .bottom-line {
         display: flex;
-        gap: 1rem;
+        align-items: center;
+        justify-content: space-between;
+        .email {
+            text-transform: uppercase;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
     }
+
 }

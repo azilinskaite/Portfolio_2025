@@ -6,6 +6,7 @@ import Project from "./Components/ProjectComponent/Project";
 import Footer from "./Components/FooterComponent/Footer";
 import cocktailPhoto from "../src/Assets/cocktail-kungen-mockup.png";
 import chaosPhoto from "../src/Assets/chaos-magazine-mockup.png";
+import shopPhoto from "../src/Assets/team-shop-mockup.png";
 import libraryPhoto from "../src/Assets/library-mockup.png";
 
 function App() {
@@ -18,28 +19,34 @@ function App() {
         <Project
           photo={cocktailPhoto}
           title="Cocktail Kungen"
-          info="React-based web application that allows users to explore and save cocktail recipes, developed as a team project. Utilizing TheCocktailDB API for dynamic data fetching, the app features search functionality by categories, detailed recipe pages, and a favorites system. Built with React, JSX, and CSS, it employs React Hooks for state management and offers a responsive design."
+          infoPt1="React-based web application that allows users to explore and save cocktail recipes, developed as a team project. Utilizing TheCocktailDB API for dynamic data fetching"
+          infoPt2="The app features search by categories, detailed recipe pages, and a favorites system. Built with React and CSS, it employs React Hooks for state management and offers a responsive design."
           link1="https://cocktailkungen.netlify.app/"
           link2="https://github.com/azilinskaite/Cocktails_app"
         />
         <Project
           photo={chaosPhoto}
           title="Chaos magazine"
-          info="Magazine website mockup featuring a music quiz game. Built with JavaScript, HTML, CSS and API for dynamic quiz content. The project includes responsive design, highlights clean code structure with instant feedback for enhanced user experience."
+          infoPt1="Magazine website mockup featuring a music quiz game. Built with HTML, CSS, JavaScript and API for dynamic quiz content."
+          infoPt2="The project includes responsive design, highlights clean code structure with instant feedback for enhanced user experience."
           link1="https://chaos-magazine.netlify.app/"
           link2="https://github.com/azilinskaite/music-quiz"
         />
         <Project
-          photo={libraryPhoto}
-          title="Bookworm HQ"
-          info="Library web application. The project leverages JavaScript object-oriented programming, utilizing constructors and implementing dynamic DOM manipulation for a fluid user interface. It features CRUD functionality. Implementing responsive design principles"
-          link1="https://bookworm-hq.netlify.app/"
-          link2="https://github.com/azilinskaite/library_app"
+          photo={shopPhoto}
+          title="Team shop"
+          infoPt1="Small e-commerce project developed in a team of six, employing Scrum methodology. The project was built using JavaScript, featuring product data retrieval from an API."
+          infoPt2="Shopping cart functionality allows users to add products, update quantities, and persist cart data using localStorage. We implemented product filters that enable users to sort items by category."
+          link1=""
+          link2="https://github.com/azilinskaite/Fake_Store"
         />
         <Project
-          photo={chaosPhoto}
-          title="Library App"
-          info="JavaSript project showing CRUD functionality, adding, updating and deleting books in a personal library."
+          photo={libraryPhoto}
+          title="Bookworm HQ"
+          infoPt1="Library web application. The project leverages JavaScript object-oriented programming, utilizing constructors and implementing dynamic DOM manipulation."
+          infoPt2="It features CRUD functionality for a fluid user interface. Implementing responsive design principles."
+          link1="https://bookworm-hq.netlify.app/"
+          link2="https://github.com/azilinskaite/library_app"
         />
       </section>
       <Footer />

@@ -1,8 +1,10 @@
 @import "../../App.css";
 
 header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 4rem;
   padding: 1rem;
   position: fixed;
@@ -11,7 +13,7 @@ header {
   background-color: transparent;
   transition: all 0.3s ease-out;
   .header-logo img {
-    max-height: 2rem;
+    max-height: 3rem;
     mix-blend-mode: difference;
     transition: all 0.3s ease-out;
   }
