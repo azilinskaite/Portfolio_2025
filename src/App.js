@@ -4,10 +4,10 @@ import HeroSection from "./Components/HeroSectionComponent/HeroSection";
 import MovingHeader from "./Components/MovingHeaderComponent/MovingHeader";
 import Project from "./Components/ProjectComponent/Project";
 import Footer from "./Components/FooterComponent/Footer";
-import cocktailPhoto from "../src/Assets/cocktail-kungen-mockup.png";
-import chaosPhoto from "../src/Assets/chaos-magazine-mockup.png";
-import shopPhoto from "../src/Assets/team-shop-mockup.png";
-import libraryPhoto from "../src/Assets/library-mockup.png";
+import cocktailPhoto from "../src/Assets/cocktail-kungen-mockup.jpg";
+import chaosPhoto from "../src/Assets/chaos-magazine-mockup.jpg";
+import shopPhoto from "../src/Assets/team-shop-mockup.jpg";
+import libraryPhoto from "../src/Assets/library-mockup.jpg";
 
 function App() {
   return (

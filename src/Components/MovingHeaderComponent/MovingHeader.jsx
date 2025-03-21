@@ -11,6 +11,7 @@ const MovingHeader = () => {
         <h3 aria-hidden="true" className="marquee-text">Selected work</h3>
         <h3 aria-hidden="true" className="marquee-text">Selected work</h3>
         <h3 aria-hidden="true" className="marquee-text">Selected work</h3>
+        <h3 aria-hidden="true" className="marquee-text">Selected work</h3>
       </div>
     </div>
   );

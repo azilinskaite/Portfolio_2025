@@ -7,24 +7,22 @@
   padding: 1.4rem 1rem 1rem 1rem;
   .marquee-track {
     display: flex;
-    padding-left: 2rem;
-    gap: 2rem; 
     width: max-content;
-    animation: marquee-animation 16s infinite linear;
+    gap: 2rem;
+    white-space: nowrap;
+    animation: marquee 6s linear infinite;
     .marquee-text {
-      /* text-transform: uppercase; */
       color: var(--background-color);
       font-size: 3rem;
       font-weight: 800;
-      overflow: clip;
+      display: flex;
     }
   }
 }
 
-@keyframes marquee-animation {
-  to {
-    transform: translateX(-50%);
-  }
+@keyframes marquee {
+  /* from { transform: translateX(0); } */
+  to { transform: translateX(-30%); }
 }
 
 @media (max-width: 768px) {
