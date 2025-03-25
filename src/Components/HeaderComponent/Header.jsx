@@ -7,6 +7,7 @@ const Header = () => {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    document.body.classList.toggle('menu-open');
   };
 
   const scrollToTop = () => {
@@ -42,7 +43,7 @@ const Header = () => {
         </ul>
       </nav>
       <button className="burger-menu" onClick={toggleMenu}>
-        {isMenuOpen ? "X" : "≡"}
+        {isMenuOpen ? "x" : "☰"}
       </button>
     </header>
   );
