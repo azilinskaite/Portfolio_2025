@@ -20,14 +20,17 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        font-size: 1rem;
+        margin-top: 2rem;
         .email {
             text-transform: uppercase;
+            text-decoration: none;
+            color: inherit;
         }
         ul {
             list-style: none;
             display: flex;
             gap: 1rem;
-            margin-top: 1rem;
         }
     }
 

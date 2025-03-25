@@ -38,7 +38,7 @@
     font: inherit;
     text-decoration: none;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
     &:hover {
       color: var(--accent1-color);
       border-color: var(--accent1-color);
@@ -61,11 +61,11 @@
     display: flex;
     gap: 1rem;
     justify-self: flex-start;
-    font-size: 2rem;
+    font-size: 1.8rem;
     a {
       text-decoration: none;
       color: inherit;
-      transition: 0.5s;
+      transition: 0.3s;
     }
     a:hover {
       cursor: pointer;
@@ -77,7 +77,8 @@
   .paragraph2 {
     justify-self: center;
     align-self: flex-start;
-    text-align: justify;
+    /* text-align: justify; */
+    text-align: left;
   }
   .paragraph1 {
     grid-column: 3 / span 1;
@@ -85,4 +86,41 @@
   .paragraph2 {
     grid-column: 4 / span 1;
   }
+}
+
+@media (max-width: 768px) {
+  .project-display .project-name-box {
+    top: 1rem;
+    left: 1rem;
+    color: var(--text-color);
+    border-color: var(--text-color);
+    background-color: rgba(1, 1, 1, 0.5);
+    &:hover {
+      color: var(--accent1-color);
+      border-color: var(--accent1-color);
+      scale: 1.05;
+    }
+  }
+  .project-details {
+    padding: 0 1rem;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    span {
+      font-size: 1.5rem;
+    }
+    .paragraph1 {
+      grid-column: 2 / span 1;
+    }
+    .paragraph2 {
+      grid-column: 3 / span 1;
+    }
+    span {
+      grid-column: 1 / span 1;
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+    }
+  }
+}
+
+@media (max-width: 480px) {
 }

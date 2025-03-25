@@ -1,8 +1,35 @@
 @import "../../App.css";
 
 footer {
-    padding: 3rem 1rem;
-    h2 {
-        font-size: 5rem;
+  padding: 4rem 1rem 2rem;
+  background-color: var(--accent1-color);
+  color: var(--background-color);
+  h2 {
+    font-size: clamp(3rem, 1rem + 10.2vw, 10rem);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  hr {
+    margin: 1rem 0 2rem;
+    border: 1.2px solid var(--background-color);
+  }
+  .contact-links {
+    display: flex;
+    gap: 1rem;
+    a {
+      text-decoration: none;
+      color: inherit;
+      font-size: 1.8rem;
     }
+  }
+  .copyright-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 10rem;
+    font-weight: 600;
+    img {
+      height: 6rem;
+    }
+  }
 }

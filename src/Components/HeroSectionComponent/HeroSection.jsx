@@ -17,7 +17,9 @@ const HeroSection = () => {
         <li><img src="" alt="" />REACT</li>
         <li><img src="" alt="" />NODE.JS</li>
       </ul>
-      <p className="email">zilinskaite.adele@gmail.com</p>
+      <a className="email" href="mailto:zilinskaite.adele@gmail.com">
+          zilinskaite.adele@gmail.com
+        </a>
       </div>
     </section>
   );

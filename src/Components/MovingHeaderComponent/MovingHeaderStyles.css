@@ -8,12 +8,12 @@
   .marquee-track {
     display: flex;
     width: max-content;
-    gap: 2rem;
     white-space: nowrap;
-    animation: marquee 6s linear infinite;
+    animation: marquee 10s linear infinite;
     .marquee-text {
       color: var(--background-color);
       font-size: 3rem;
+      margin-right: 2rem;
       font-weight: 800;
       display: flex;
     }
@@ -21,8 +21,8 @@
 }
 
 @keyframes marquee {
-  /* from { transform: translateX(0); } */
-  to { transform: translateX(-30%); }
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
 
 @media (max-width: 768px) {
