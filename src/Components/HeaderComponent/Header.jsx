@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./HeaderStyles.css";
 import logo from "../../Assets/Adele-logo.png";
 
 const Header = () => {
-  
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header>
       <div className="header-logo">
         <img src={logo} alt="Adele logo" />
       </div>
-      <nav className="header-nav">
+      <nav className={`header-nav ${isMenuOpen ? 'open' : ''}`}>
         <ul className="header-nav-links">
           <li>
             <a href="#about">About,</a>
@@ -22,6 +27,9 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <button className="burger-menu" onClick={toggleMenu}>
+          {isMenuOpen ? 'X' : '≡'}
+        </button>
     </header>
   );
 };

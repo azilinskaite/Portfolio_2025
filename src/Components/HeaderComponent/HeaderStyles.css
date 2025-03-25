@@ -1,7 +1,7 @@
 @import "../../App.css";
 
 header {
-width: 100%;
+  width: 100%;
   top: 0;
   left: 0;
   display: flex;
@@ -11,25 +11,24 @@ width: 100%;
   padding: 1rem;
   position: fixed;
   z-index: 1;
-  transition: all 0.3s ease-out;
+  mix-blend-mode: difference;
   .header-logo img {
     max-height: 3rem;
     mix-blend-mode: difference;
-    transition: all 0.3s ease-out;
+    position: relative;
+    z-index: 3;
   }
   .header-nav {
     .header-nav-links {
       list-style: none;
       display: flex;
       gap: 1rem;
-      transition: all 0.3s ease-out;
       li a {
         text-decoration: none;
         color: var(--text-color);
         mix-blend-mode: difference;
         text-transform: uppercase;
         font-size: 1.5rem;
-        transition: all 0.3s ease-out;
         &:hover {
           color: var(--accent1-color);
           cursor: pointer;
@@ -37,21 +36,44 @@ width: 100%;
       }
     }
   }
-}
-
-.inverted {
-    filter: invert(1);
+  .burger-menu {
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: var(--text-color);
+  }
 }
 
 @media (max-width: 480px) {
- header {
-  justify-content: flex-start;
-  padding: 0.5rem;
-  .header-logo img {
-    max-height: 2rem;
+  header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    .header-logo img {
+      max-height: 2rem;
+    }
+    .header-nav {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 4rem 1rem 2rem;
+      text-align: center;
+      background-color: var(--background-color);
+      mix-blend-mode: normal;
+      z-index: 2;
+    }
+    .header-nav.open {
+      display: block;
+    }
+    .header-nav-links {
+      flex-direction: column;
+    }
+    .burger-menu {
+      display: block;
+      font-size: 1.5rem;
+      z-index: 4;
+    }
   }
-  .header-nav {
-    display: none;
-   }
-}
 }

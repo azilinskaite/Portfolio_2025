@@ -89,15 +89,19 @@
 }
 
 @media (max-width: 768px) {
-  .project-display .project-name-box {
-    top: 1rem;
-    left: 1rem;
-    &:hover {
-      color: var(--accent1-color);
-      border-color: var(--accent1-color);
-      scale: 1.05;
+  .project-display {
+    height: 38rem;
+    background-size: auto 45rem;
+    .project-name-box {
+      top: 1rem;
+      left: 1rem;
+      &:hover {
+        color: var(--accent1-color);
+        border-color: var(--accent1-color);
+        scale: 1.05;
+      }
     }
-  }
+  } 
   .project-details {
     padding: 0 1rem;
     grid-template-columns: 0.5fr 1fr 1fr;
