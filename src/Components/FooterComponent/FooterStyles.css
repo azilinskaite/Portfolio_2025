@@ -5,7 +5,7 @@ footer {
   background-color: var(--accent1-color);
   color: var(--background-color);
   h2 {
-    font-size: clamp(3rem, 1rem + 10.2vw, 10rem);
+    font-size: clamp(3rem, -2vw + 14vw, 15rem);
     text-transform: uppercase;
     text-align: center;
   }
@@ -31,5 +31,25 @@ footer {
     img {
       height: 6rem;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  footer .contact-links {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  footer .contact-links {
+    flex-direction: column;
+    text-align: center;
+    a {
+      font-size: 1.2rem;
+    }
+  }
+  .copyright-row {
+    margin-top: 5rem;
   }
 }

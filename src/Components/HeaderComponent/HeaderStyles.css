@@ -1,16 +1,16 @@
 @import "../../App.css";
 
 header {
-  width: 100%;
+width: 100%;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 4rem;
   padding: 1rem;
   position: fixed;
-  right: 0;
   z-index: 1;
-  background-color: transparent;
   transition: all 0.3s ease-out;
   .header-logo img {
     max-height: 3rem;
@@ -41,4 +41,17 @@ header {
 
 .inverted {
     filter: invert(1);
+}
+
+@media (max-width: 480px) {
+ header {
+  justify-content: flex-start;
+  padding: 0.5rem;
+  .header-logo img {
+    max-height: 2rem;
+  }
+  .header-nav {
+    display: none;
+   }
+}
 }

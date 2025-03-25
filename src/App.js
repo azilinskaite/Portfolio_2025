@@ -19,8 +19,8 @@ function App() {
         <Project
           photo={cocktailPhoto}
           title="Cocktail Kungen"
-          infoPt1="React-based web application that allows users to explore and save cocktail recipes, developed as a team project. Utilizing TheCocktailDB API for dynamic data fetching"
-          infoPt2="The app features search by categories, detailed recipe pages, and a favorites system. Built with React and CSS, it employs React Hooks for state management and offers a responsive design."
+          infoPt1="React-based web application that allows users to explore and save cocktail recipes, developed as a team project. Utilizing TheCocktailDB API for dynamic data fetching."
+          infoPt2="The app features search by categories, detailed recipe pages and a favorites system. Built with React, it employs React Hooks for state management and offers a responsive design."
           link1="https://cocktailkungen.netlify.app/"
           link2="https://github.com/azilinskaite/Cocktails_app"
         />
@@ -35,8 +35,8 @@ function App() {
         <Project
           photo={shopPhoto}
           title="Team shop"
-          infoPt1="Small e-commerce project developed in a team of six, employing Scrum methodology. The project was built using JavaScript, featuring product data retrieval from an API."
-          infoPt2="Shopping cart functionality allows users to add products, update quantities, and persist cart data using localStorage. We implemented product filters that enable users to sort items by category."
+          infoPt1="Small e-commerce project developed in a team of six. The project was built using JavaScript, featuring product data retrieval from an API."
+          infoPt2="Shopping cart functionality allows users to add products and update quantities. Implemented product filters help users to sort items by category."
           link1=""
           link2="https://github.com/azilinskaite/Fake_Store"
         />
@@ -44,7 +44,7 @@ function App() {
           photo={libraryPhoto}
           title="Bookworm HQ"
           infoPt1="Library web application. The project leverages JavaScript object-oriented programming, utilizing constructors and implementing dynamic DOM manipulation."
-          infoPt2="It features CRUD functionality for a fluid user interface. Implementing responsive design principles."
+          infoPt2="It features create, read, update, delete functionalities for a fluid user interface. Implementing responsive design principles."
           link1="https://bookworm-hq.netlify.app/"
           link2="https://github.com/azilinskaite/library_app"
         />

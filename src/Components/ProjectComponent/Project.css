@@ -77,8 +77,8 @@
   .paragraph2 {
     justify-self: center;
     align-self: flex-start;
-    /* text-align: justify; */
     text-align: left;
+    max-width: 28rem;
   }
   .paragraph1 {
     grid-column: 3 / span 1;
@@ -92,9 +92,6 @@
   .project-display .project-name-box {
     top: 1rem;
     left: 1rem;
-    color: var(--text-color);
-    border-color: var(--text-color);
-    background-color: rgba(1, 1, 1, 0.5);
     &:hover {
       color: var(--accent1-color);
       border-color: var(--accent1-color);
@@ -123,4 +120,41 @@
 }
 
 @media (max-width: 480px) {
+  .project-display {
+    height: 36rem;
+    background-size: auto 40rem;
+    .project-name-box {
+      top: 1rem;
+      right: 1rem;
+      background-color: var(--background-color);
+      padding: 0.5rem 1rem;
+      border-radius: 10rem;
+      &:hover {
+        color: var(--accent1-color);
+        border-color: var(--accent1-color);
+        scale: 1.05;
+      }
+    }
+  }
+  .project-details {
+    align-items: flex-end;
+    bottom: 1.5rem;
+    padding: 0rem 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    span {
+      grid-column: 1 / span 1;
+      gap: 0.8rem;
+      font-size: 1.5rem;
+    }
+    .paragraph1 {
+      grid-column: 2 / span 1;
+      font-size: 0.9rem;
+    }
+    .paragraph2 {
+      grid-column: 2 / span 1;
+      font-size: 0.9rem;
+    }
+  }
 }
