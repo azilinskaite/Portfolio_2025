@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Roslindale";
-  src: url(../src/Assets/Roslindale-DisplayCondensedExtraLightItalic-Testing.woff) format("woff");
+  src: url(../src/Assets/Roslindale-DisplayCondensedExtraLightItalic-Testing.woff)
+    format("woff");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
@@ -21,9 +22,9 @@
 }
 
 :root {
-  --background-color: #22211E;
-  --text-color: #EDF5EC;
-  --accent1-color: #AFF8A2;
+  --background-color: #22211e;
+  --text-color: #edf5ec;
+  --accent1-color: #aff8a2;
   --font-display: "Roslindale", sans-serif;
   --font-basic: "Helvetica", sans-serif;
 }
@@ -34,15 +35,24 @@ body {
   color: var(--text-color);
 }
 
-h1, h2, h4 {
+h1,
+h2,
+h4 {
   font-family: var(--font-display);
 }
 
 .projects-container {
-  /* display: flex;
-  flex-direction: column; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 1rem;
+}
+
+@media (max-width: 480px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+  }
 }

@@ -48,14 +48,19 @@ footer {
 }
 
 @media (max-width: 480px) {
-  footer .contact-links {
-    flex-direction: column;
-    text-align: center;
-    a {
-      font-size: 1.2rem;
+  footer {
+    .contact-links {
+      flex-direction: column;
+      text-align: center;
+      a {
+        font-size: 1.2rem;
+      }
     }
-  }
-  .copyright-row {
-    margin-top: 5rem;
+    .copyright-row {
+      margin-top: 3rem;
+      img {
+        height: 4rem;
+      }
+    }
   }
 }
