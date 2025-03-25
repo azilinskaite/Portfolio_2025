@@ -15,7 +15,7 @@ footer {
   }
   .contact-links {
     display: flex;
-    gap: 2rem;
+    justify-content: space-between;
     a {
       text-decoration: none;
       color: inherit;
@@ -42,16 +42,15 @@ footer {
 
 @media (max-width: 768px) {
   footer .contact-links {
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.8rem;
   }
 }
 
 @media (max-width: 480px) {
   footer {
     .contact-links {
-      flex-direction: column;
-      text-align: center;
       a {
         font-size: 1.2rem;
       }
