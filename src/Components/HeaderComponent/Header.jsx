@@ -10,6 +10,11 @@ const Header = () => {
     document.body.classList.toggle('menu-open');
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+    document.body.classList.remove('menu-open');
+  };
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -31,14 +36,14 @@ const Header = () => {
       </a>
       <nav className={`header-nav ${isMenuOpen ? "open" : ""}`}>
         <ul className="header-nav-links">
-          <li>
-            <a href="#about">About,</a>
+        <li>
+            <a href="#about" onClick={closeMenu}>About,</a>
           </li>
           <li>
-            <a href="#work">Work,</a>
+            <a href="#work" onClick={closeMenu}>Work,</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={closeMenu}>Contact</a>
           </li>
         </ul>
       </nav>
