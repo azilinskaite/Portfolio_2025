@@ -8,7 +8,7 @@ const Project = ({ photo, title, infoPt1, infoPt2, link1, link2 }) => {
       style={{ backgroundImage: `url(${photo})` }}
     >
       <a href={link1} className="project-name-box" target="_blank" rel="noreferrer">
-        <h3>{title}</h3>
+        <h4>{title}</h4>
       </a>
       <div className="project-details">
         <span>

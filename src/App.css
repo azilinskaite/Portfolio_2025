@@ -26,9 +26,6 @@
   --accent1-color: #AFF8A2;
   --font-display: "Roslindale", sans-serif;
   --font-basic: "Helvetica", sans-serif;
-
-  /* headline font */
-  --display-font-weight: 300;
 }
 
 body {
@@ -37,7 +34,7 @@ body {
   color: var(--text-color);
 }
 
-h1, h2 {
+h1, h2, h4 {
   font-family: var(--font-display);
 }
 
