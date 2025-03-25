@@ -15,18 +15,24 @@ footer {
   }
   .contact-links {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     a {
       text-decoration: none;
       color: inherit;
       font-size: 1.8rem;
+      transition: 0.3s;
+      &:hover {
+        scale: 1.05;
+      }
     }
   }
   .copyright-row {
+    font-family: var(--font-display);
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    margin-top: 10rem;
+    margin-top: 12rem;
+    font-size: 1.5rem;
     font-weight: 600;
     img {
       height: 6rem;

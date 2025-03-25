@@ -28,6 +28,7 @@ header {
         color: var(--text-color);
         text-transform: uppercase;
         font-size: 1.5rem;
+        transition: 0.3s;
         &:hover {
           color: var(--accent1-color);
           cursor: pointer;
@@ -43,15 +44,21 @@ header {
   }
 }
 
+body.menu-open header,
+body.menu-open .header-logo img,
+body.menu-open .burger-menu {
+  mix-blend-mode: normal;
+}
+
 @media (max-width: 480px) {
   header {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
-    mix-blend-mode: normal;
+    mix-blend-mode: difference;
     .header-logo img {
       max-height: 2rem;
-      mix-blend-mode: normal;
+      mix-blend-mode: difference;
     }
     .header-nav {
       display: none;

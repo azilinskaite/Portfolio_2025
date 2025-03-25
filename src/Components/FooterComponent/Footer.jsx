@@ -27,7 +27,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="copyright-row">
-        <span>&#169;2025</span>
+        <span>&#169; 2025</span>
         <img src={logoDark} alt="Adele logo" />
       </div>
     </footer>

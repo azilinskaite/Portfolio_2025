@@ -19,32 +19,28 @@ function App() {
         <Project
           photo={cocktailPhoto}
           title="Cocktail Kungen"
-          infoPt1="React-based web application that allows users to explore and save cocktail recipes, developed as a team project. Utilizing TheCocktailDB API for dynamic data fetching."
-          infoPt2="The app features search by categories, detailed recipe pages and a favorites system. Built with React, it employs React Hooks for state management and offers a responsive design."
+          paragraph="React-based web application that allows users to explore and save cocktail recipes, developed as a team project. Utilizing TheCocktailDB API for dynamic data fetching. The app features search by categories, detailed recipe pages and a favorites system. Built with React, it employs React Hooks for state management and offers a responsive design."
           link1="https://cocktailkungen.netlify.app/"
           link2="https://github.com/azilinskaite/Cocktails_app"
         />
         <Project
           photo={chaosPhoto}
           title="Chaos magazine"
-          infoPt1="Magazine website mockup featuring a music quiz game. Built with HTML, CSS, JavaScript and API for dynamic quiz content."
-          infoPt2="The project includes responsive design, highlights clean code structure with instant feedback for enhanced user experience."
+          paragraph="Magazine website mockup featuring a music quiz game. Built with HTML, CSS, JavaScript and API for dynamic quiz content. The project includes responsive design, highlights clean code structure with instant feedback for enhanced user experience."
           link1="https://chaos-magazine.netlify.app/"
           link2="https://github.com/azilinskaite/music-quiz"
         />
         <Project
           photo={shopPhoto}
           title="Team shop"
-          infoPt1="Small e-commerce project developed in a team of six. The project was built using JavaScript, featuring product data retrieval from an API."
-          infoPt2="Shopping cart functionality allows users to add products and update quantities. Implemented product filters help users to sort items by category."
+          paragraph="Small e-commerce project developed in a team of six. The project was built using JavaScript, featuring product data retrieval from an API. Shopping cart functionality allows users to add products and update quantities. Implemented product filters help users to sort items by category."
           link1=""
           link2="https://github.com/azilinskaite/Fake_Store"
         />
         <Project
           photo={libraryPhoto}
           title="Bookworm HQ"
-          infoPt1="Library web application. The project leverages JavaScript object-oriented programming, utilizing constructors and implementing dynamic DOM manipulation."
-          infoPt2="It features create, read, update, delete functionalities for a fluid user interface. Implementing responsive design principles."
+          paragraph="Library web application. The project leverages JavaScript object-oriented programming, utilizing constructors and implementing dynamic DOM manipulation. It features create, read, update, delete functionalities for a fluid user interface. Implementing responsive design principles."
           link1="https://bookworm-hq.netlify.app/"
           link2="https://github.com/azilinskaite/library_app"
         />
