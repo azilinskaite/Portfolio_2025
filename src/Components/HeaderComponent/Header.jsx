@@ -9,12 +9,26 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <header>
-      <div className="header-logo">
+      <a
+        className="header-logo"
+        href="#top"
+        onClick={(e) => {
+          e.preventDefault();
+          scrollToTop();
+        }}
+      >
         <img src={logo} alt="Adele logo" />
-      </div>
-      <nav className={`header-nav ${isMenuOpen ? 'open' : ''}`}>
+      </a>
+      <nav className={`header-nav ${isMenuOpen ? "open" : ""}`}>
         <ul className="header-nav-links">
           <li>
             <a href="#about">About,</a>
@@ -28,8 +42,8 @@ const Header = () => {
         </ul>
       </nav>
       <button className="burger-menu" onClick={toggleMenu}>
-          {isMenuOpen ? 'X' : '≡'}
-        </button>
+        {isMenuOpen ? "X" : "≡"}
+      </button>
     </header>
   );
 };

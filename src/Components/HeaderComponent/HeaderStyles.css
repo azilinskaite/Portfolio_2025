@@ -26,7 +26,6 @@ header {
       li a {
         text-decoration: none;
         color: var(--text-color);
-        mix-blend-mode: difference;
         text-transform: uppercase;
         font-size: 1.5rem;
         &:hover {
@@ -49,8 +48,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
+    mix-blend-mode: normal;
     .header-logo img {
       max-height: 2rem;
+      mix-blend-mode: normal;
     }
     .header-nav {
       display: none;
@@ -61,7 +62,6 @@ header {
       padding: 4rem 1rem 2rem;
       text-align: center;
       background-color: var(--background-color);
-      mix-blend-mode: normal;
       z-index: 2;
     }
     .header-nav.open {
