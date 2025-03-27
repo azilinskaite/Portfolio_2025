@@ -2,17 +2,17 @@
 
 .hero-section {
   max-width: 100%;
-  padding: 8rem 1rem 4rem;
+  padding: 7rem 1rem 4rem;
   h1 {
-    font-size: 6rem;
-    line-height: 6rem;
+    font-size: clamp(4rem, 2.9rem + 5.8vw, 8rem);
+    line-height: clamp(3rem, 2.9rem + 5.8vw, 7.6rem);
   }
   p {
     max-width: 70ch;
     line-height: 1.4rem;
     font-size: 1rem;
     font-weight: 500;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
   }
   hr {
     margin: 2rem 0 1rem;
@@ -49,10 +49,6 @@
 @media (max-width: 480px) {
   .hero-section {
     padding: 5rem 1rem 3em;
-    h1 {
-      font-size: 4rem;
-      line-height: 4rem;
-    }
     p {
       max-width: 70ch;
       font-size: 1rem;
