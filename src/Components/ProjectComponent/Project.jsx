@@ -20,10 +20,10 @@ const Project = ({ photo, title, paragraph, link1, link2 }) => {
       <div className="project-details">
           <span>
             <a href={link1} target="_blank" rel="noreferrer">
-              NETLIFY
+              SEE LIVE
             </a>
             <a href={link2} target="_blank" rel="noreferrer">
-              GITHUB
+              SEE CODE
             </a>
           </span>
           <p className="project-description">{paragraph}</p>

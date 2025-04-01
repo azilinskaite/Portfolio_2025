@@ -1,7 +1,7 @@
 @import "../../App.css";
 
 footer {
-  padding: 4rem 1rem 2rem;
+  padding: 3rem 1rem;
   background-color: var(--accent1-color);
   color: var(--background-color);
   h2 {
@@ -18,8 +18,9 @@ footer {
     justify-content: space-between;
     a {
       text-decoration: none;
+      text-transform: uppercase;
       color: inherit;
-      font-size: 1.8rem;
+      font-size: 1.2rem;
       transition: 0.3s;
       &:hover {
         scale: 1.05;
