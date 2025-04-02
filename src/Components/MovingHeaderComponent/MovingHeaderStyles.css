@@ -10,11 +10,11 @@
     color: var(--background-color);
     font-size: 3rem;
     font-weight: 500;
-    width: 18rem;
+    width: 15rem;
     text-transform: lowercase;
     display: flex;
     position: absolute;
-    left: calc(18rem * 7);
+    left: calc(15rem * 7);
     animation-name: scrollLeft;
     animation-duration: 28s;
     animation-timing-function: linear;
@@ -46,6 +46,6 @@
 
 @keyframes scrollLeft {
   to {
-    left: -18rem;
+    left: -15rem;
   }
 }

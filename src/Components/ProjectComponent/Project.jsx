@@ -1,6 +1,7 @@
 import React from "react";
 import "./Project.css";
 import projects from "../../Data/projectsData";
+import ErrorBoundary from "./ErrorBoundary";
 
 const Project = ({ photo, title, paragraph, link1, link2 }) => {
   return (
@@ -35,11 +36,13 @@ const Project = ({ photo, title, paragraph, link1, link2 }) => {
 
 function ProjectsList() {
   return (
-    <section className="projects-container" id="work">
-      {projects.map((project, index) => (
-        <Project key={index} {...project} />
-      ))}
-    </section>
+    <ErrorBoundary>
+      <section className="projects-container" id="work">
+        {projects.map((project, index) => (
+          <Project key={index} {...project} />
+        ))}
+      </section>
+    </ErrorBoundary>
   );
 }
 
