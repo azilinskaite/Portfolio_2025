@@ -1,5 +1,6 @@
 import React from "react";
 import "./Project.css";
+import projects from "../../Data/projectsData";
 
 const Project = ({ photo, title, paragraph, link1, link2 }) => {
   return (
@@ -32,4 +33,14 @@ const Project = ({ photo, title, paragraph, link1, link2 }) => {
   );
 };
 
-export default Project;
+function ProjectsList() {
+  return (
+    <section className="projects-container" id="work">
+      {projects.map((project, index) => (
+        <Project key={index} {...project} />
+      ))}
+    </section>
+  );
+}
+
+export default ProjectsList;

@@ -37,6 +37,7 @@ footer {
     font-weight: 600;
     img {
       height: 6rem;
+      width: auto;
     }
   }
 }

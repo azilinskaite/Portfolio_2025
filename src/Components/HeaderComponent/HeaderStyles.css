@@ -13,7 +13,8 @@ header {
   z-index: 1;
   mix-blend-mode: difference;
   .header-logo img {
-    max-height: 3rem;
+    height: 3rem;
+    width: auto;
     mix-blend-mode: difference;
     position: relative;
     z-index: 3;

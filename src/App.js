@@ -3,12 +3,13 @@ import "./App.css";
 import Header from "./Components/HeaderComponent/Header";
 import HeroSection from "./Components/HeroSectionComponent/HeroSection";
 import MovingHeader from "./Components/MovingHeaderComponent/MovingHeader";
-import Project from "./Components/ProjectComponent/Project";
+// import Project from "./Components/ProjectComponent/Project";
 import Footer from "./Components/FooterComponent/Footer";
-import cocktailPhoto from "../src/Assets/cocktail-kungen-mockup.jpg";
-import chaosPhoto from "../src/Assets/chaos-magazine-mockup.jpg";
-import shopPhoto from "../src/Assets/team-shop-mockup.jpg";
-import libraryPhoto from "../src/Assets/library-mockup.jpg";
+// import cocktailPhoto from "../src/Assets/cocktail-kungen-mockup.webp";
+// import chaosPhoto from "../src/Assets/chaos-magazine-mockup.webp";
+// import shopPhoto from "../src/Assets/team-shop-mockup.webp";
+// import libraryPhoto from "../src/Assets/library-mockup.webp";
+import ProjectsList from "./Components/ProjectComponent/Project";
 
 function App() {
 
@@ -30,8 +31,8 @@ function App() {
       <Header />
       <HeroSection />
       <MovingHeader />
-      <section className="projects-container" id="work">
-        <Project
+        <ProjectsList/>
+        {/* <Project
           photo={cocktailPhoto}
           title="Cocktail Kungen"
           paragraph="React-based web application for exploring and saving cocktail recipes, developed in a small team. Utilizes TheCocktailDB API for dynamic data fetching. Features search by category and a favorites system. Built with React using Hooks for state management and responsive design. My contributions: Dynamic Header, Favorites page, design & responsiveness."
@@ -58,8 +59,7 @@ function App() {
           paragraph="Library web application. The project leverages JavaScript object-oriented programming, utilizing constructors and implementing dynamic DOM manipulation. It features create, read, update, delete functionalities for a fluid user interface. Implementing responsive design principles."
           link1="https://bookworm-hq.netlify.app/"
           link2="https://github.com/azilinskaite/library_app"
-        />
-      </section>
+        /> */}
       <Footer />
     </div>
   );
