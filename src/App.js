@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import "./App.css";
 import Header from "./Components/HeaderComponent/Header";
 import HeroSection from "./Components/HeroSectionComponent/HeroSection";
@@ -10,6 +11,20 @@ import shopPhoto from "../src/Assets/team-shop-mockup.jpg";
 import libraryPhoto from "../src/Assets/library-mockup.jpg";
 
 function App() {
+
+  useEffect( () => {
+    (
+      async () => {
+          const LocomotiveScroll = (await import('locomotive-scroll')).default;
+          // eslint-disable-next-line
+          const locomotiveScroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true,
+          });
+      }
+    )()
+  }, [])
+
   return (
     <div className="App">
       <Header />

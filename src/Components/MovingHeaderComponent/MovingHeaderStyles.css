@@ -1,6 +1,6 @@
 @import "../../App.css";
 
-.marquee-wrapper {
+/* .marquee-wrapper {
   width: 100%;
   overflow: hidden;
   background-color: var(--text-color);
@@ -35,5 +35,55 @@
 @media (max-width: 480px) {
   .marquee-text {
     font-size: 1.5rem;
+  }
+} */
+
+.marquee-wrapper {
+  height: 6rem;
+  overflow: hidden;
+  background-color: var(--text-color);
+  padding: 1.2rem 0;
+  position: relative;
+  .text {
+    color: var(--background-color);
+    font-size: 3rem;
+    font-weight: 500;
+    width: 20rem;
+    text-transform: lowercase;
+    display: flex;
+    position: absolute;
+    left: calc(20rem * 7);
+    animation-name: scrollLeft;
+    animation-duration: 28s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: -14s;
+  }
+  .text1 {
+    animation-delay: calc(28s / 7 * (7 - 1) * -1);
+  }
+  .text2 {
+    animation-delay: calc(28s / 7 * (7 - 2) * -1);
+  }
+  .text3 {
+    animation-delay: calc(28s / 7 * (7 - 3) * -1);
+  }
+  .text4 {
+    animation-delay: calc(28s / 7 * (7 - 4) * -1);
+  }
+  .text5 {
+    animation-delay: calc(28s / 7 * (7 - 5) * -1);
+  }
+  .text6 {
+    animation-delay: calc(28s / 7 * (7 - 6) * -1);
+  }
+  .text7 {
+    animation-delay: calc(28s / 7 * (7 - 7) * -1);
+  }
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -20rem;
   }
 }
