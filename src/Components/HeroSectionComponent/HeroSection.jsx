@@ -11,10 +11,12 @@ const HeroSection = () => {
       <hr />
       <div className="bottom-line">
       <ul>
-        <li>HTML</li>
+        <li>FIGMA</li>
         <li>CSS</li>
+        <li>TAILWIND</li>
         <li>JAVASCRIPT</li>
         <li>REACT</li>
+        <li>GIT</li>
       </ul>
       <a className="email" href="mailto:zilinskaite.adele@gmail.com">
           zilinskaite.adele@gmail.com
